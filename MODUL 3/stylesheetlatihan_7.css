@@ -1,0 +1,13 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; color: #263238; }
+header { background: #254b70; color: white; padding: 25px; text-align: center; }
+nav { display: flex; justify-content: center; gap: 25px; background: #e8eef5; padding: 14px; }
+nav a { color: #254b70; text-decoration: none; font-weight: bold; }
+main { display: flex; gap: 20px; max-width: 950px; margin: 25px auto; padding: 0 18px; }
+article, aside { background: #f5f7fa; padding: 22px; border-radius: 10px; }
+article { flex: 2; }
+aside { flex: 1; }
+@media (max-width: 650px) {
+  nav { flex-direction: column; align-items: center; gap: 12px; }
+  main { flex-direction: column; }
+}

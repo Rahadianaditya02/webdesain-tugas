@@ -1,0 +1,46 @@
+
+/* Mengatur tampilan halaman */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 30px;
+}
+
+/* Mengatur judul utama */
+h1 {
+    color: #ffffff;
+    background-color: #2563a6;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Mengatur subjudul */
+h2 {
+    color: #2563a6;
+    border-bottom: 2px solid #2563a6;
+    padding-bottom: 8px;
+    margin-top: 30px;
+}
+
+/* Mengatur daftar mata kuliah */
+ol, ul {
+    background-color: white;
+    padding: 20px 20px 20px 45px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Mengatur setiap daftar */
+li {
+    padding: 8px;
+    color: #333333;
+    font-size: 16px;
+}
+
+/* Efek ketika kursor diarahkan */
+li:hover {
+    color: #2563a6;
+    font-weight: bold;
+}

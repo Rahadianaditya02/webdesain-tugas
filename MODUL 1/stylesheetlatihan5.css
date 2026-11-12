@@ -1,0 +1,54 @@
+
+/* Mengatur tampilan halaman */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 30px;
+}
+
+/* Mengatur judul */
+h1 {
+    color: white;
+    background-color: #2563a6;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+/* Mengatur tabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Mengatur judul kolom */
+th {
+    background-color: #2563a6;
+    color: white;
+    padding: 15px;
+    font-size: 16px;
+}
+
+/* Mengatur isi tabel */
+td {
+    padding: 15px;
+    text-align: center;
+    color: #333333;
+    border: 1px solid #dddddd;
+}
+
+/* Memberikan warna berbeda pada baris */
+tr:nth-child(even) {
+    background-color: #e8f1fa;
+}
+
+/* Efek ketika kursor diarahkan */
+tr:hover {
+    background-color: #c9e2f8;
+}

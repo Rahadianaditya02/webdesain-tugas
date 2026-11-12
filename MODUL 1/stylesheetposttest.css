@@ -1,0 +1,49 @@
+
+/* Mengatur tampilan halaman */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 30px;
+    max-width: 850px;
+    margin: 30px auto;
+}
+
+/* Mengatur judul utama */
+h1 {
+    background-color: #2563a6;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    border-radius: 10px;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+/* Mengatur subjudul */
+h2 {
+    color: #2563a6;
+    border-left: 5px solid #2563a6;
+    padding: 10px 15px;
+    background-color: #e1edf8;
+    border-radius: 5px;
+    margin-top: 25px;
+}
+
+/* Mengatur paragraf */
+p {
+    background-color: white;
+    color: #333333;
+    font-size: 16px;
+    line-height: 1.8;
+    padding: 18px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    text-align: justify;
+}
+
+/* Efek saat kursor diarahkan ke paragraf */
+p:hover {
+    background-color: #eaf3fc;
+    transition: 0.3s;
+}

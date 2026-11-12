@@ -1,0 +1,53 @@
+
+/* Mengatur tampilan halaman */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    margin: 0 auto;
+    padding: 30px;
+    max-width: 800px;
+    text-align: center;
+}
+
+/* Mengatur judul */
+h1 {
+    background-color: #2563a6;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 28px;
+}
+
+/* Mengatur paragraf */
+p {
+    color: #333333;
+    font-size: 17px;
+    margin-top: 25px;
+}
+
+/* Mengatur gambar */
+img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    border: 3px solid #2563a6;
+    margin: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Mengatur tautan */
+a {
+    display: inline-block;
+    background-color: #2563a6;
+    color: white;
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+/* Efek ketika diarahkan kursor */
+a:hover {
+    background-color: #163d68;
+}

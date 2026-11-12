@@ -1,0 +1,43 @@
+
+/* Mengatur tampilan halaman */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 30px;
+}
+
+/* Mengatur judul utama */
+h1 {
+    background-color: #2563a6;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Mengatur subjudul */
+h2 {
+    color: #2563a6;
+    border-bottom: 2px solid #2563a6;
+    padding-bottom: 8px;
+    margin-top: 25px;
+}
+
+/* Mengatur paragraf */
+p {
+    color: #333333;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+/* Mengatur bagian profil */
+body {
+    max-width: 800px;
+    margin: 30px auto;
+}
+
+/* Memberikan tampilan kotak pada isi */
+h2, p {
+    padding-left: 10px;
+}

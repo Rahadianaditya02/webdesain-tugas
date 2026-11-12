@@ -1,0 +1,9 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; color: #263238; }
+#kepala { background: #254b70; color: white; padding: 22px; text-align: center; }
+.judul { color: #254b70; }
+p { line-height: 1.6; }
+.penting { background: #fff3cd; padding: 10px; border-left: 4px solid #e0a800; }
+a { color: #1769aa; }
+a:hover { color: #d35400; }
+section { padding: 24px; }

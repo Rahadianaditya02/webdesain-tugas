@@ -1,0 +1,42 @@
+
+/* Mengatur tampilan halaman */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 30px;
+    line-height: 1.8;
+}
+
+/* Mengatur judul */
+h2 {
+    color: #1e4f80;
+    text-align: center;
+    background-color: #dceaf7;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+/* Mengatur kotak External CSS */
+.box-external {
+    background-color: #e8f5e9;
+    border: 2px solid #4caf50;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Mengatur paragraf External CSS */
+.box-external p {
+    color: #2e7d32;
+    font-weight: bold;
+    margin: 0;
+}
+
+/* Memberikan efek hover */
+.box-external:hover {
+    background-color: #c8e6c9;
+    transition: 0.3s;
+}

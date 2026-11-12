@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post Test - Penulisan CSS</title>
+    
+    <!-- 1. EXTERNAL CSS (Menghubungkan file CSS luar) -->
+    <link rel="stylesheet" href="stylesheet_POSTEST.css">
+
+    <!-- 2. INTERNAL CSS (Menuliskan CSS langsung di dalam tag style) -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            background-color: #f9f9f9;
+        }
+
+        .box-internal {
+            background-color: #e3f2fd;
+            border: 1px solid #2196f3;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Contoh Implementasi Penulisan CSS</h2>
+
+    <!-- Contoh 1: Internal CSS -->
+    <div class="box-internal">
+        <p>Paragraf ini diatur menggunakan <strong>Internal CSS</strong> (melalui tag &lt;style&gt; di bagian head).</p>
+    </div>
+
+    <!-- Contoh 2: Inline CSS -->
+    <div style="background-color: #fff3cd; border: 1px solid #ffeba2; padding: 15px; margin-bottom: 15px; border-radius: 5px;">
+        <p style="color: #856404; font-weight: bold;">
+            Paragraf ini diatur menggunakan Inline CSS (langsung di dalam atribut style tag HTML).
+        </p>
+    </div>
+
+    <!-- Contoh 3: External CSS -->
+    <div class="box-external">
+        <p>Paragraf ini diatur menggunakan <strong>External CSS</strong> (diambil dari file stylesheet_POST_TEST.css).</p>
+    </div>
+
+</body>
+</html>

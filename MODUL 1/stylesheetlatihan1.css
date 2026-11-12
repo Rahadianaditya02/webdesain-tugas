@@ -1,0 +1,28 @@
+
+/* Mengatur tampilan halaman */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    text-align: center;
+    margin: 0;
+    padding: 50px;
+}
+
+/* Mengatur judul */
+h1 {
+    color: darkblue;
+    font-size: 32px;
+}
+
+/* Mengatur paragraf */
+p {
+    color: black;
+    font-size: 18px;
+}
+
+/* Mengatur teks biru */
+.teks-biru {
+    color: blue;
+    font-family: Arial;
+    font-weight: bold;
+}
